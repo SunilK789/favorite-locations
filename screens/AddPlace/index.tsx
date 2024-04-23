@@ -1,12 +1,9 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { View, Text } from "react-native";
+import React from "react";
+import PlaceForm from "../../components/Place/PlaceForm";
 
 const AddPlace = () => {
-  return (
-    <View>
-      <Text>AddPlace</Text>
-    </View>
-  )
-}
+  return <PlaceForm />;
+};
 
-export default AddPlace
+export default AddPlace;

@@ -1,7 +1,7 @@
 import { View, Text, FlatList } from "react-native";
 import React from "react";
 import PlaceItem from "../PlaceItem";
-import { IPlace } from "../../interfaces";
+import { IPlace } from "../../../interfaces";
 import { styles } from "./style";
 
 interface IPlacesListProps {
